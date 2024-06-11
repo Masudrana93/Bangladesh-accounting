@@ -41,7 +41,7 @@
 }
 
 
-.p-0 a {
+.title-with-pic a {
     text-decoration: none;
     color: red;
 }
@@ -57,14 +57,15 @@
     color: white;
     background: darkgreen;
 } */
-div#navbarNavDropdown ul li a:hover {
+div#navbarNavDropdown>ul>li>a:hover {
     color: #18ba60 !important;
+    
 }
 div#navbarNavDropdown ul li a {
     font-weight: 600;
     font-size: 14px;
     font-family: sans-serif;
-    line-height:81px;
+   padding: 0 .4rem;
 }
 .paragraph h2 {
     color: #18ba60 !important;
@@ -84,4 +85,16 @@ div#navbarNavDropdown ul li a {
 .follow-us-decor ul li {
     float: left;
     padding: 5px;
+}
+
+div#navbarNavDropdown> ul>li>a {
+    line-height: 81px;
+}
+.dropdown-background li a:hover {
+    background: green;
+    color: white;
+}
+
+.dropdown-background li a {
+    padding: 30px;
 }
