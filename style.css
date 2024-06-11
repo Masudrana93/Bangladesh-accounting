@@ -26,7 +26,7 @@
 }
 
 .col-4 ul li a:hover {
-    color: green;
+    color: #18ba60 !important;
     transition: all 1s;
 }
 
@@ -61,7 +61,7 @@ div#navbarNavDropdown>ul>li>a:hover {
     color: #18ba60 !important;
     
 }
-div#navbarNavDropdown ul li a {
+div#navbarNavDropdown>ul>li>a {
     font-weight: 600;
     font-size: 14px;
     font-family: sans-serif;
@@ -88,13 +88,76 @@ div#navbarNavDropdown ul li a {
 }
 
 div#navbarNavDropdown> ul>li>a {
-    line-height: 81px;
+    line-height: 94px;
 }
 .dropdown-background li a:hover {
-    background: green;
+    background: #18ba60 !important;
     color: white;
 }
 
 .dropdown-background li a {
-    padding: 30px;
+    padding: 10px;
+}
+
+
+.follow-us-decor h3 {
+    content: ' ';
+    height: 4px;
+    width: 15%;
+    background: #18ba60 !important;
+    border-radius: 19%;
+}
+.important-count-column h3 {
+    content: ' ';
+    height: 4px;
+    width: 15%;
+    background: #18ba60 !important;
+    border-radius: 19%;
+}
+
+.contact-info h3 {
+    content: ' ';
+    height: 4px;
+    width: 15%;
+    background: #18ba60 !important;
+    border-radius: 19%;
+}
+
+.bi-facebook {
+    background-color: blue;
+    border-radius: 50%;
+    border: 5px solid blue;
+    color: white;
+    
+}
+.bi-twitter {
+    background-color: blue;
+    border-radius: 50%;
+    border: 5px solid blue;
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.bi-instagram {
+    background-color:#e4405f;
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 6px;
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+.bi-youtube {
+    background-color:red;
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 6px;
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+.border-top-last,
+.footer-part {
+    border-top: 1px solid #394348;
 }
