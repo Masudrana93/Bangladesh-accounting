@@ -92,9 +92,6 @@ div#navbarNavDropdown> ul>li>a {
     padding: 10px;
 }
 
-
-
-
 .border-top-last,
 .footer-part {
     border-top: 1px solid #394348;
@@ -156,4 +153,11 @@ div#navbarNavDropdown> ul>li>a {
 }
 .bottom-menu-column {
     column-count: 2;
+}
+
+.dropdown-menu li {
+    border-bottom: 1px solid gray;
+}
+.dropdown-menu li:last-child {
+    border-bottom: none;
 }
