@@ -11,9 +11,9 @@
 }
 
 .important-count-column ul {
-    column-count: 2;
+    /* column-count: 2; */
     list-style: none;
-    color: white;
+    /* color: white; */
 }
 
 .important-count-column ul li a {
@@ -78,14 +78,7 @@ div#navbarNavDropdown>ul>li>a {
     padding: 2px;
     font-size: 14px;
 }
-.follow-us-decor ul {
-    list-style: none;
-}
 
-.follow-us-decor ul li {
-    float: left;
-    padding: 5px;
-}
 
 div#navbarNavDropdown> ul>li>a {
     line-height: 94px;
@@ -100,64 +93,67 @@ div#navbarNavDropdown> ul>li>a {
 }
 
 
-.follow-us-decor h3 {
-    content: ' ';
-    height: 4px;
-    width: 15%;
-    background: #18ba60 !important;
-    border-radius: 19%;
-}
-.important-count-column h3 {
-    content: ' ';
-    height: 4px;
-    width: 15%;
-    background: #18ba60 !important;
-    border-radius: 19%;
-}
 
-.contact-info h3 {
-    content: ' ';
-    height: 4px;
-    width: 15%;
-    background: #18ba60 !important;
-    border-radius: 19%;
-}
 
-.bi-facebook {
-    background-color: blue;
-    border-radius: 50%;
-    border: 5px solid blue;
-    color: white;
-    
-}
-.bi-twitter {
-    background-color: blue;
-    border-radius: 50%;
-    border: 5px solid blue;
-    color: white;
-    width: 30px;
-    height: 30px;
-}
-
-.bi-instagram {
-    background-color:#e4405f;
-    border-radius: 50%;
-    font-size: 18px;
-    padding: 6px;
-    color: white;
-    width: 30px;
-    height: 30px;
-}
-.bi-youtube {
-    background-color:red;
-    border-radius: 50%;
-    font-size: 18px;
-    padding: 6px;
-    color: white;
-    width: 30px;
-    height: 30px;
-}
 .border-top-last,
 .footer-part {
     border-top: 1px solid #394348;
+}
+.navbar-light .navbar-nav .nav-link.active
+{
+    color: #18ba60;
+}
+
+
+.follow-us-decor h5 {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.follow-us-decor h5:after {
+    position: absolute;
+    content: ' ';
+    width: 15%;
+    height: 4px;
+    background: green;
+    left: 0;
+    bottom: -9px;
+    border-radius: 2px;
+}
+
+.follow-us-decor ul {
+    list-style: none;
+}
+
+.social-media-icons li {
+    width: 40px;
+    height: 40px;
+    background: red;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    
+    
+    
+}
+.social-media-icons li:first-child {
+    background:#4267B2;
+}
+.social-media-icons li:nth-child(2) {
+    background: #1DA1F2;
+}
+.social-media-icons li:nth-child(3) {
+    background:#E1306C;
+}
+.social-media-icons li a{
+    color: white;
+  
+}
+
+.icon-value-size {
+    width: max-content;
+}
+.bottom-menu-column {
+    column-count: 2;
 }
