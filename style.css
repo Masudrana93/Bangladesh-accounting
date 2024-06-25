@@ -161,3 +161,18 @@ div#navbarNavDropdown> ul>li>a {
 .dropdown-menu li:last-child {
     border-bottom: none;
 }
+
+.about-us-optional h6 {
+    color: #2e363a;
+    margin-bottom: 0;
+}
+.about-us-optional h2 {
+    color: #2e363a;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.about-us-optional h6 a {
+    color: #18ba60;
+    margin-bottom: 0;
+    text-decoration: none;
+}
