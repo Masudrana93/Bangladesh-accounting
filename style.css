@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -175,4 +176,22 @@ div#navbarNavDropdown> ul>li>a {
     color: #18ba60;
     margin-bottom: 0;
     text-decoration: none;
+}
+.page-title {
+    background: #F8F8F8;
+}
+.page-title-shortmenu h6 a:hover {
+    color: black;
+    transition: all 1s;
+}
+.page-title-shortmenu h6 span {
+    color:#18ba60;
+}
+
+.footer-last-part a {
+    color: #18ba60;
+}
+.footer-last-part a:hover {
+    color: white;
+    transition: all 1s;
 }
